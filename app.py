@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load your sales dataset
-df = pd.read_csv('sales_data_.csv')  
+df = pd.read_csv('sales_data.csv')  
 
 # Initialize Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)  # suppress_callback_exceptions to avoid callback warnings

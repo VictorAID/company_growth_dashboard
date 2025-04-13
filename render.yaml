@@ -1,0 +1,8 @@
+# render.yaml
+
+services:
+  - type: web
+    name: company-growth-analysis
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
